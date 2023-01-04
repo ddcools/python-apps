@@ -3,5 +3,7 @@ from . import views
 
 #URLConf
 urlpatterns = [
-    url('welcome/', views.welcome_user)
+    url('home/', views.home),
+    url('welcome/', views.welcome_user),
+    url('logout/', views.logout)
 ]
